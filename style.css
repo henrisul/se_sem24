@@ -1,11 +1,30 @@
-
+body {
+    font-family: "bahnschrift";
+    font-size: 2vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image:linear-gradient(to right, #2980b9, #2c3e50);
+    color: white;
+}
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%
 }
+
+img.center {
+    width: 30%;
+    border: 0px outset white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    filter:drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5))
+}
+
 
 th, td {
     border:1px solid rgb(12, 0, 58);
@@ -14,4 +33,27 @@ th, td {
 
 table {
     border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 50ms;
+    padding:10px;
+    border:5px white solid;
+    border-radius:15px;
+}
+
+a:hover {
+    color:rgb(127, 127, 127);
+    transform: rotate(30deg);
+}
+
+a:visited {
+    color: white;
 }
